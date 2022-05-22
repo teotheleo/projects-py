@@ -3,10 +3,10 @@
 # A paragraph with blank spaces which are going to be filled by the player 
 
 # string concatenation
-#youtuber = "name"
-#print("subscribe to " + youtuber)
-#print("subscribe to {}".format(youtuber))
-#print(f"subscribe to {youtuber}")
+#name = "First"
+#print("subscribe to " + name)
+#print("subscribe to {}".format(name))
+#print(f"subscribe to {name}")
 
 def madlibs():
     
