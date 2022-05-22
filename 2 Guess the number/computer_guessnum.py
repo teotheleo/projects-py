@@ -5,7 +5,10 @@ def computer_guessnum(x):
     high = x
     feedback = ''
     while feedback != 'c':
-        guess = random.randint(low, high)
+        if low != high:
+            guess = random.randint(low, high)
+        else:
+            guess = high
         feedback = input(f"Is the number {guess} correct (C), high (H), or low (L)?").lower()
         if feedback == "h":
             high = guess - 1
